@@ -24,11 +24,12 @@ int main() {
     }
     int* a = input(n);
     int* b = input(m);
+    print(a, n);
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < m; j++) {
             
             i = b[j];
-            a[i] = a[i];
+            
         }
     }
     print(a, n);
